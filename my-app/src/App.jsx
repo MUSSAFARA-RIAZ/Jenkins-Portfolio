@@ -16,6 +16,7 @@ mindset, with keen interest in scalable system design and emerging technologies 
     'HTML & CSS',
     'MongoDB / Express',
     'Data Visualization',
+    'jenkins',
     'Machine Learning (basics)'
   ],
   experience: [
