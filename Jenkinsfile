@@ -1,29 +1,25 @@
 pipeline {
     agent any
-
-    environment {
-        VERCEL_TOKEN = credentials('vercel_token')
-    }
-
     stages {
         stage('Install') {
             steps {
-                bat 'npm install'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Skipping tests - no test script found'
+                dir('my-app') {
+                    bat 'npm install'
+                }
             }
         }
         stage('Build') {
             steps {
-                bat 'npm run build'
+                dir('my-app') {
+                    bat 'npm run build'
+                }
             }
         }
         stage('Deploy') {
             steps {
-                bat 'npx vercel --prod --yes --token=%VERCEL_TOKEN%'
+                dir('my-app') {
+                    bat 'npx vercel --prod --token=%VERCEL_TOKEN%'
+                }
             }
         }
     }
