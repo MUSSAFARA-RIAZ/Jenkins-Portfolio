@@ -26,4 +26,5 @@ pipeline {
                 bat 'npx vercel --prod --yes --token=%VERCEL_TOKEN%'
             }
         }
+    }
 }
