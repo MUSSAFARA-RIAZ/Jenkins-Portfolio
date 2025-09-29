@@ -21,7 +21,7 @@ mindset, with keen interest in scalable system design and emerging technologies 
   ],
   experience: [
     {
-      role: 'Software Engineer',
+      role: 'Senior Software Engineer',
       company: 'Lambda Theta',
       date: 'May 2023 – Present',
       details: 'Frontend lead working on EAXEE platform, multilanguage UI, real-time collaboration and team leadership.'
