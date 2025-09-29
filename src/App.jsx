@@ -1,7 +1,7 @@
 import React from 'react'
 
 const resume = {
-  name: 'Mussafara Riaz',
+  name: 'Engr.Mussafara Riaz',
   title: 'Software Engineer | MERN Stack Developer',
   email: 'riazmussafara@gmail.com',
   phone: '+92 336 1812654',
