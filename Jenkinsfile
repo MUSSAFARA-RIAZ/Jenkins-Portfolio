@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Skipping tests - no test script found'
+                echo 'Skipping tests - nno test script found'
             }
         }
         stage('Build') {
